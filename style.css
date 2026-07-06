@@ -1,0 +1,62 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: #654321;
+}
+
+/* BODY */
+body{
+    background-color: white;
+    
+}
+
+/* header */
+
+header{
+    background-color:  #654321;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    color: whitesmoke;
+}
+
+th{
+    text-align: right;
+}
+button{
+    background-color:  #654321;
+    color: wheat;
+    padding: 150px;
+    text-align: center;
+    border-radius: 15px;
+    border-color: chocolate;
+    border-width: 10px;
+}
+table{
+background-color:  #654321;
+color: wheat;
+text-align: center;
+border-spacing: 15px;
+padding:50px;
+border-radius: 15px;
+border-color: chocolate;
+border-width: 15px;
+}
+
+section{
+ background-color: #654321;
+}
+footer{
+    background-color: #654321;
+    color: wheat;
+}
+p{
+    color: wheat;
+}
+article{
+    color: wheat;
+    text-align: center;
+}
