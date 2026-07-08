@@ -2,7 +2,7 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-background-color: #654321;
+background-color: wheat;
 }
 
 /* BODY */
@@ -29,15 +29,15 @@ th{
 button{
     background-color:  #654321;
     color: wheat;
-    padding: 150px;
+    padding: 15px;
     text-align: center;
     border-radius: 15px;
     border-color: chocolate;
-    border-width: 10px;
+    border-width: 3px;
 }
 table{
 background-color:  #654321;
-color: wheat;
+color: black;
 text-align: center;
 border-spacing: 15px;
 padding:50px;
