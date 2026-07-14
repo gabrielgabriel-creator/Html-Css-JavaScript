@@ -1,0 +1,101 @@
+*{
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: wheat;
+    border-radius: 5px;
+}
+
+.cargo {
+    text-align: center;
+    color: black;
+}
+.objetivoprofissional {
+    text-align: center;
+    color: black;
+}
+
+.cabecalho {
+    display: flex;
+    background-color: rgb(141, 73, 0);
+    align-items: center;
+
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitulo {
+    font-size: 18px;
+    color: black;
+
+}
+
+
+.foto {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border: 3px solid #96390e;
+    
+}
+
+.nav-menu {
+    list-style: none;
+    margin-top: 5px;
+    text-decoration: none;
+    text-align: center;
+    
+    
+}
+
+.nav-menu  ul li {
+    display: inline-block;
+    margin: 10px 10px;
+    text-decoration: none;
+    width: 150px;
+    
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #96390e;
+    
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+.sobremim {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black
+    
+}
+
+.curiosidades {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black
+    ;
+}
+
+.habilidades {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black
+}
+
+.product-card:hover{
+    transform: scale(1.02);
+}
