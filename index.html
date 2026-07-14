@@ -6,16 +6,18 @@
         <title>Minha loja virtual</title>
         <link rel="stylesheet" href="style.css">
     </head>
-<body>
-    <form
+    <body>
+        <br>
+        <h1 class="Título">Padaria</h1>
+        <br>
+        <form
     id="form-contact"
-    action="/enviar"
-    method="POST"
-    novalidate>
+    action="/enviar">
 
         <fieldset>
             <legend>Dados de contato</legend>
-
+            <br>
+            <br>
             <label for="input-name">
                 Nome:
             </label>
@@ -52,8 +54,9 @@
         <button type="submit">
             Enviar
         </button>
+        
     </form>
-    
+    <br>
     <!-- Select -->
 
     <select name="category" 
@@ -65,7 +68,8 @@
      <option 
      value="moda">Moda</option>
     </select>
-
+    <br>
+    <br>
     <!-- Radio -->
 
     <input type="radio"
@@ -78,7 +82,8 @@
     id="radio-pj"
     value="pj">
     <label for="radio-pj"> Pessoa Jurídica</label>
-
+    <br>
+    <br>
     <!-- Checkbox -->
 
      <input type="checkbox"
@@ -92,12 +97,11 @@
      id="check-news"
      value="news">
      <label for="check-news"></label>
-
-
+    <br>
+    <br>
 
 
     <header class="header" id="home">
-     <h1>Padaria</h1>
 
      <!--Título-->
 
@@ -129,21 +133,39 @@
      <main class="main-content">
 
         <section class="products">
-            <h2>Produtos em Destaque</h2>
-            <article class="product">
+            <h2 class="titulo-do-section">Produtos em Destaque</h2>
+            <article class="product-card">
                 <h3> Pão de Queijo</h3>
-                <img src="Pao-de-queijo.jpg" alt="131"  width="250">
+                <figure>
+                <img class="pao-de-queijo" src="fotos/Pao-de-queijo.jpg" alt="131"  width="200px" height="200px" loading="lazy">
+                <video src=""></video>
+                <audio src=""></audio>
+                <iframe width="250px" height="250px" src="https://www.youtube.com/embed/UGjddoPfx8w?si=ClxMEw8tt_4S_Qu2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <figcaption><b>Pão de Queijin, nu é bom demais sô!</b></figcaption>
+                </figure>
 
             </article>
-
-            <article class="product">
+            <br>
+            <article class="product-card">
                 <h3>Pão de Leite</h3>
-                <img src="Pão-de-Leite-Fofinho.jpg" alt="131" width="250">
+                <figure>
+                <img class="pao-de-leite" src="fotos/Pão-de-Leite-Fofinho.jpg" alt="131" width="200px" height="200px" loading="lazy">
+                <video src=""></video>
+                <audio src=""></audio>
+                <iframe width="250px" height="250px" src="https://www.youtube.com/embed/UGjddoPfx8w?si=ClxMEw8tt_4S_Qu2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <figcaption><b>Pão de Leite, ain ain leitinho</b></figcaption>
+                </figure>
             </article>
-
-            <article class="product">
+            <br>
+            <article class="product-card">
                 <h3> Pão Árabe</h3>
-                <img src="pao-arabe.png" alt="131" width="250">
+                <figure>
+                <img class="pao-arabe" src="fotos/pao-arabe.png" alt="131" width="200px" height="200px" loading="lazy">
+                <video src=""></video>
+                <audio src=""></audio>
+                <iframe width="250px" height="250px" src="https://www.youtube.com/embed/UGjddoPfx8w?si=ClxMEw8tt_4S_Qu2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <figcaption><b>Pão Árabe, KABUM KABUM</b></figcaption>
+                </figure>
             </article>
             <p> Esse é um parágrafo</p>
             <b>Em negrito</b>
@@ -154,16 +176,16 @@
         <br>
         <br>
 
-        <section>
+        <section class="table">
             <table class="product-table">
-            <thead>
+            <thead class="table2">
                 <tr>
                     <th> Produtos </th>
                     <th> Preço </th>
                     <th> Categoria </th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody class="table2">
                 <tr>
                     <td>Farinha </td>
                     <td>R$ 35</td>
@@ -175,7 +197,7 @@
                     <td>Alimentos</td>
                 </tr>
             </tbody>
-            <tfoot>
+            <tfoot class="table2">
                 <tr>
                 <td>Total</td>
                 <td> R$80</td>

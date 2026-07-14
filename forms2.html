@@ -1,0 +1,60 @@
+<form id="form-contact" action="https://www.fragrantica.com.br/">
+  <fieldset>
+    <legend>Dados de contato</legend>
+
+    <label for="input-name"> Nome: </label>
+    <input
+      type="text"
+      id="input-name"
+      name="name"
+      minlength="3"
+      required
+      placeholder="seu nome completo"
+    />
+
+    <label for="input-password"> Senha: </label>
+    <input
+      type="password"
+      id="input-password"
+      password="Senha"
+      minlength="8"
+      required
+      placeholder="Mínimo 8 caracteres"
+    />
+  </fieldset>
+  <fieldset>
+    <legend>Preferencias</legend>
+    <input
+      type="number"
+      id="input-age"
+      name="age"
+      min="18"
+      max="120"
+      required
+      placeholder="Sua idade"
+    />
+    <select name="category" id="input-category">
+      <option value="">Selecione...</option>
+      <option value="eletrônicos">Eletrônicos</option>
+      <option value="perfume">Perfumes</option>
+    </select>
+
+    <!-- Radio -->
+    <input type="radio" name="client-type" id="radio-pf" value="pf" />
+    <label for="radio-pf">Pessoa Física</label>
+    <input type="radio" name="client-type" id="radio-pj" value="pj" />
+    <label for="radio-pj">Pessoa Jurídica</label>
+  </fieldset>
+  <!-- Select -->
+
+  <button type="submit">Enviar</button>
+
+  <label for="mensagem">mensagem</label>
+  <textarea
+    name="mensagem"
+    id="mensagem"
+    rows="2"
+    placeholder="Escreve ai doido"
+  >
+  </textarea>
+</form>

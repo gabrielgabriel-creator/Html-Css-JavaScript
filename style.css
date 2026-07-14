@@ -1,3 +1,5 @@
+/* Reset */
+
 *{
 margin: 0;
 padding: 0;
@@ -7,20 +9,86 @@ background-color: wheat;
 
 /* BODY */
 body{
-    background-color: white;
-    
-}
-
-/* header */
-
-header{
-    background-color:  #654321;
+    background-color: wheat;
     font-family: Arial, Helvetica, sans-serif;
 
 }
+form{
+    background-color: rgba(104, 54, 0, 0.776);
+    
+}
 
-h1{
-    color: whitesmoke;
+/* Header */
+
+.header{
+    background-color:  rgb(141, 73, 0);
+    color: aliceblue;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    text-align: center;
+    border: 3.5px;
+
+}
+
+main{
+    margin-top: 100px;
+}
+
+.nav-prod{
+list-style: none;
+margin-top: auto;
+text-decoration: none;
+}
+
+.nav-menu{
+    list-style: none;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.nav-menu li{
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+
+.nav-menu a{
+    text-decoration: none;
+}
+
+
+.nav-menu a:hover{
+    text-decoration: underline;
+
+}
+
+
+.nav-m{
+    list-style: none;
+    margin-top:10px;
+    text-decoration: none;
+}
+
+.nav-m ol li{
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.nav-m a{
+    text-decoration: none;
+}
+
+.nav-m a:hover{
+    text-decoration: underline;
+}
+
+.product-card:hover{
+    transform: scale(1.02);
 }
 
 th{
@@ -29,11 +97,11 @@ th{
 button{
     background-color:  #654321;
     color: wheat;
-    padding: 15px;
+    padding: 2px;
     text-align: center;
-    border-radius: 15px;
-    border-color: chocolate;
-    border-width: 3px;
+    
+    border-radius: 5px;
+    border: 3px solid #654321;
 }
 table{
 background-color:  #654321;
@@ -42,21 +110,78 @@ text-align: center;
 border-spacing: 15px;
 padding:50px;
 border-radius: 15px;
-border-color: chocolate;
+border-color: saddlebrown;
 border-width: 15px;
 }
 
+.titulo-do-section{
+    text-align: center;
+    color: brown;
+}
+
 section{
- background-color: #654321;
+ border: 4px solid burlywood;
+ text-decoration: none;
 }
-footer{
-    background-color: #654321;
-    color: wheat;
-}
+
 p{
     color: wheat;
 }
+
 article{
-    color: wheat;
+    border: 10px solid sienna;
+}
+
+h3{
     text-align: center;
+    border: 5px solid #654321;
+}
+
+
+.product-card{
+    color: black;
+    text-align:left;
+    border-color: wheat;
+    border-width: 10px;
+    border-radius: 25px;
+    padding: 15px;
+    border: 3.5px solid bisque;
+    
+}
+
+.product-card{
+    color: black;
+    text-align:left;
+    border-color:wheat;
+    border-width: 10px;
+    border-radius: 25px;
+    padding: 15px;
+    border: 3.5px solid saddlebrown;
+}
+
+.product-card{
+    color: black;
+    text-align:left;
+    border-color: wheat;
+    border-width: 10px;
+    border-radius: 25px;
+    padding: 15px;
+    border: 3.5px solid saddlebrown;
+}
+
+.table{
+    text-align: center;
+    border-color: saddlebrown;
+    border-width: 10px;
+    border-radius: 20px;
+}
+
+.table2{
+    text-align: center;
+}
+
+
+footer{
+    background-color: #654321;
+    color: wheat;
 }
