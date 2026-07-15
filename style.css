@@ -4,7 +4,7 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-background-color: wheat;
+
 }
 
 /* BODY */
@@ -13,10 +13,14 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 
 }
-form{
-    background-color: rgba(104, 54, 0, 0.776);
+
+.nomedapadaria {
+    color: black;
+    text-align: center;
+    margin-bottom: 5px;
     
 }
+
 
 /* Header */
 
@@ -43,20 +47,21 @@ margin-top: auto;
 text-decoration: none;
 }
 
-.nav-menu{
+.nav-menu ul {
+    display: flex;
+    justify-content: center;
     list-style: none;
     margin-top: 5px;
     text-decoration: none;
 }
 
-.nav-menu li{
-    display: inline-block;
-    margin: 0 10px;
-    text-decoration: none;
+.nav-menu ul li {
+    margin: 0 15px;
+    
 }
 
-
-.nav-menu a{
+.nav-menu a {
+    color: aliceblue;
     text-decoration: none;
 }
 
@@ -87,13 +92,64 @@ text-decoration: none;
     text-decoration: underline;
 }
 
+.titulo-do-section{
+    text-align: center;
+    color: brown;
+    display: flex;
+    margin-bottom: 25px;
+    
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-card{
+    text-align:center;
+    border-color: wheat;
+    width: 250px;
+    border-radius: 25px;
+    padding: 15px;
+    border: 1px solid #654321;
+    
+    
+}
 .product-card:hover{
     transform: scale(1.02);
+}
+
+.product-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+.product-card h3 {
+    border: none;
+    color:blanchedalmond;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    color: bisque;
+    margin-bottom: 15px;
+}
+
+.product-card button {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
 }
 
 th{
     text-align: right;
 }
+
 button{
     background-color:  #654321;
     color: wheat;
@@ -103,6 +159,7 @@ button{
     border-radius: 5px;
     border: 3px solid #654321;
 }
+
 table{
 background-color:  #654321;
 color: black;
@@ -114,10 +171,6 @@ border-color: saddlebrown;
 border-width: 15px;
 }
 
-.titulo-do-section{
-    text-align: center;
-    color: brown;
-}
 
 section{
  border: 4px solid burlywood;
@@ -138,36 +191,6 @@ h3{
 }
 
 
-.product-card{
-    color: black;
-    text-align:left;
-    border-color: wheat;
-    border-width: 10px;
-    border-radius: 25px;
-    padding: 15px;
-    border: 3.5px solid bisque;
-    
-}
-
-.product-card{
-    color: black;
-    text-align:left;
-    border-color:wheat;
-    border-width: 10px;
-    border-radius: 25px;
-    padding: 15px;
-    border: 3.5px solid saddlebrown;
-}
-
-.product-card{
-    color: black;
-    text-align:left;
-    border-color: wheat;
-    border-width: 10px;
-    border-radius: 25px;
-    padding: 15px;
-    border: 3.5px solid saddlebrown;
-}
 
 .table{
     text-align: center;
@@ -176,12 +199,12 @@ h3{
     border-radius: 20px;
 }
 
-.table2{
+
+.footer {
+    background-color: wheat;
+    color: #222;
     text-align: center;
-}
-
-
-footer{
-    background-color: #654321;
-    color: wheat;
+    padding: 15px;
+    margin-top: 20px;
+    
 }

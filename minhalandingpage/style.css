@@ -76,22 +76,50 @@ body{
 
 }
 
+.objetivo {
+     margin-left: 15px;
+    margin-bottom: 20px;
+    color: black
+    
+}
+
+
 .sobremim {
-    text-align: center;
+   margin-left: 15px;
     margin-bottom: 20px;
     color: black
     
 }
 
 .curiosidades {
-    text-align: center;
+    margin-left: 15px;
     margin-bottom: 20px;
-    color: black
-    ;
+    color: black;
+
 }
 
 .habilidades {
-    text-align: center;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    color: black
+
+}
+
+.objetivos {
+     margin-left: 15px;
+    margin-bottom: 20px;
+    color: black
+}
+
+
+.umpoucosobremim {
+     margin-left: 15px;
+    margin-bottom: 20px;
+    color: black
+}
+
+.contato {
+     margin-left: 15px;
     margin-bottom: 20px;
     color: black
 }
