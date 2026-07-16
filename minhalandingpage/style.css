@@ -1,9 +1,9 @@
 *{
     font-family: arial, sans-serif;
-    margin: 0;
+    margin: 0px;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
 body{
@@ -63,6 +63,7 @@ body{
     margin: 10px 10px;
     text-decoration: none;
     width: 150px;
+    border-bottom: 2px solid #96390e;
     
 }
 
@@ -78,17 +79,16 @@ body{
 
 }
 
-.objetivo {
-     margin-left: 15px;
-    margin-bottom: 20px;
+.objetivo { 
+    margin: 20px 15px;
     color: black
+
     
 }
 
 
 .sobremim {
-   margin-left: 15px;
-    margin-bottom: 20px;
+   margin: 20px 15px;
     color: black
 
 
@@ -104,13 +104,19 @@ body{
 .curiosidades {
     margin: 20px 15px;
     color: black;
+    margin-right: 20px;
 
 }
 
+.curiosidadesimg {
+    width: 260px;
+    height: 260px;
+    border-radius: 10px;
+    border: 5px solid #96390e;
+}
+
 .habilidades {
-    margin-left: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+     margin: 20px 15px;
     color: black    
 
 }
@@ -122,24 +128,22 @@ body{
     color: black
 }
 
+
+ul{
+    list-style: none;
+}
 .oqueestouaprendendo {
-    margin-left: 15px;
-     margin-top: 20px;
-    margin-bottom: 20px;
-    color: black
+    margin:10px;
+    color: black;
 }
 
 .umpoucosobremim {
-     margin-left: 15px;
-    margin-top: 20px;
-     margin-bottom: 20px;
+     margin:10px;
     color: black 
 }
 
 .contato {
-     margin-left: 15px;
-     margin-top: 20px;
-    margin-bottom: 20px;
+     margin: 10px;
     color: black
 }
 
@@ -171,5 +175,6 @@ body{
 }
 
 footer {
-    padding-top: 45px;
+    margin: 15px;
+    color: black
 }
