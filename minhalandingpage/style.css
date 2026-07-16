@@ -3,11 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body{
     background-color: wheat;
     border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .cargo {
@@ -88,42 +90,86 @@ body{
    margin-left: 15px;
     margin-bottom: 20px;
     color: black
-    
+
+
+}
+
+#curiosidades {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .curiosidades {
-    margin-left: 15px;
-    margin-bottom: 20px;
+    margin: 20px 15px;
     color: black;
 
 }
 
 .habilidades {
     margin-left: 15px;
+    margin-top: 20px;
     margin-bottom: 20px;
-    color: black
+    color: black    
 
 }
 
 .objetivos {
      margin-left: 15px;
+     margin-top: 20px;
     margin-bottom: 20px;
     color: black
 }
 
+.oqueestouaprendendo {
+    margin-left: 15px;
+     margin-top: 20px;
+    margin-bottom: 20px;
+    color: black
+}
 
 .umpoucosobremim {
      margin-left: 15px;
-    margin-bottom: 20px;
-    color: black
+    margin-top: 20px;
+     margin-bottom: 20px;
+    color: black 
 }
 
 .contato {
      margin-left: 15px;
+     margin-top: 20px;
     margin-bottom: 20px;
     color: black
 }
 
 .product-card:hover{
     transform: scale(1.02);
+}
+
+#sobremim
+#curiosidades 
+#habilidades
+#objetivos
+#umpoucosobremim
+#contato{
+    scroll-margin-top: 150px;
+}
+
+/* ==================== RESPONSIVIDADE =================== */
+
+@media (min-width: 768px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .products {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+footer {
+    padding-top: 45px;
 }
