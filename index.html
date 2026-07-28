@@ -1,229 +1,299 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Minha loja virtual</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    
-    
-    <body>
-        <form
-        id="form-contact"
-        action="/enviar">
-        
-        <fieldset >
-            <legend>Dados de contato</legend>
-            <br>
-            <br>
-            <label for="input-name">
-                Nome:
-            </label>
-            <input 
-            type="text"
-            id="input-name"
-            name="name"
-            minlength="3"
-            required
-            placeholder="seu nome completo">
-        </fieldset>
-        <fieldset>
-            <label for="input-password">
-                Senha:
-            </label>
-            <input 
-            type="text"
-            id="input-password"
-            password="Senha"
-            minlength="8"
-            required
-            placeholder="Mínimo 8 caracteres">
-        </fieldset>
-        <fieldset>
-            <input type="number"
-            id="input-age"
-            name="age"
-            min="18"
-            max="120"
-            required
-            placeholder="Sua idade">
-        </fieldset>
-        
-        <button type="submit">
-            Enviar
-        </button>
-        
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minha loja virtual</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <form id="form-contact" action="/enviar">
+      <fieldset>
+        <legend>Dados de contato</legend>
+
+        <br />
+        <br />
+
+        <label for="input-name"> Nome: </label>
+
+        <input
+          type="text"
+          id="input-name"
+          name="name"
+          minlength="3"
+          required
+          placeholder="seu nome completo"
+        />
+      </fieldset>
+
+      <fieldset>
+        <label for="input-password"> Senha: </label>
+
+        <input
+          type="text"
+          id="input-password"
+          password="Senha"
+          minlength="8"
+          required
+          placeholder="Mínimo 8 caracteres"
+        />
+      </fieldset>
+
+      <fieldset>
+        <input
+          type="number"
+          id="input-age"
+          name="age"
+          min="18"
+          max="120"
+          required
+          placeholder="Sua idade"
+        />
+      </fieldset>
+
+      <button type="submit">Enviar</button>
     </form>
-    
+
     <!-- Select -->
-    
-    <select name="category" 
-    id="input-category">
-    <option
-    value=""> Selecione ...</option>
-    <option
-    value="eletronicos">Eletrônicos</option>
-    <option 
-    value="moda">Moda</option>
-</select>
 
-<!-- Radio -->
+    <select name="category" id="input-category">
+      <option value="">Selecione ...</option>
 
-<input type="radio"
-name="client-type"
-id="radio-pf"
-value="pf">
-<label for="radio-pf">Pessoa Física</label>
-<input type="radio"
-name="client-type"
-id="radio-pj"
-value="pj">
-<label for="radio-pj"> Pessoa Jurídica</label>
+      <option value="eletronicos">Eletrônicos</option>
 
-<!-- Checkbox -->
+      <option value="moda">Moda</option>
+    </select>
 
-<input type="checkbox"
-name="preferences"
-id="check-offers"
-value="offers">
-<label for="check-offers">Receber ofertas</label>
+    <!-- Radio -->
 
-<input type="checkbox"
-name="preferences"
-id="check-news"
-value="news">
-<label for="check-news"></label>
+    <input type="radio" name="client-type" id="radio-pf" value="pf" />
 
+    <label for="radio-pf"> Pessoa Física </label>
 
-<header class="header" id="home">
+    <input type="radio" name="client-type" id="radio-pj" value="pj" />
 
-    <h1 class="nomedapadaria">Padaria do Gabriel</h1>
-    
-    <!--Título-->
-    
-    <nav class="nav-prod">
-        <a href="https://www.amazon.com.br/s?k=perfumes+masculino&crid=2XNP1DEQ94FNU&sprefix=perfumes+%2Caps%2C217&ref=nb_sb_ss_ts-doa-p_2_9">Home</a> 
-        <a href="https://shopee.com.br/">Produtos</a>
-        <a href="#">Contatos</a>
-     </nav>
+    <label for="radio-pj"> Pessoa Jurídica </label>
 
-     <nav class="nav-menu">
+    <!-- Checkbox -->
+
+    <input
+      type="checkbox"
+      name="preferences"
+      id="check-offers"
+      value="offers"
+    />
+
+    <label for="check-offers"> Receber ofertas </label>
+
+    <input type="checkbox" name="preferences" id="check-news" value="news" />
+
+    <label for="check-news"></label>
+
+    <header class="header" id="home">
+      <h1 class="nomedapadaria">Padaria do Gabriel</h1>
+
+      <!-- Título -->
+
+      <nav class="nav-prod">
+        <a
+          href="https://www.amazon.com.br/s?k=perfumes+masculino&crid=2XNP1DEQ94FNU&sprefix=perfumes+%2Caps%2C217&ref=nb_sb_ss_ts-doa-p_2_9"
+        >
+          Home
+        </a>
+
+        <a href="https://shopee.com.br/"> Produtos </a>
+
+        <a href="#"> Contatos </a>
+      </nav>
+
+      <nav class="nav-menu">
         <ul>
-            <li><a href="#form-contact">Home</a></li>
-            <li><a href="#products">Produtos</a></li>
-            <li><a href="#contato">Contato</a></li>
+          <li><a href="#form-contact">Home</a></li>
+          <li><a href="#products">Produtos</a></li>
+          <li><a href="#contato">Contato</a></li>
         </ul>
-    </nav>
+      </nav>
 
-        <nav class="nav-m">
-            <ol>
-                <li>Adicione ao carrinho</li>
-                <li> Faça login</li>
-                <li> Finalize a compra</li>
-            </ol>
+      <nav class="nav-m">
+        <ol>
+          <li>Adicione ao carrinho</li>
+          <li>Faça login</li>
+          <li>Finalize a compra</li>
+        </ol>
+      </nav>
+    </header>
 
-        </nav>
-        
-     </header>
+    <main class="main-content">
+      <h2 class="titulo-do-section">Produtos em Destaque</h2>
 
-     <main class="main-content">
-        
-         <h2 class="titulo-do-section">Produtos em Destaque</h2>
-         
-        <section class="products" id="products">
-            
-          
-          <div class="products">
+      <section class="products" id="products">
+        <h2>Produtos</h2>
+        <div id="product-list"></div>
+      </section>
 
-              <article class="product-card">
-                  <h3> Pão de Queijo</h3>
-                  <figure>
-                      <img class="pao-de-queijo" src="fotos/Pao-de-queijo.jpg" alt="131"  width="150px" height="150px" loading="lazy">
-                      <video src=""></video>
-                      <audio src=""></audio>
-                        <iframe src="" frameborder="0"></iframe>
-                      <figcaption><b>Pão de Queijin, nu é bom demais sô!</b></figcaption>
-                      <button>Comprar
-                        <a href=""></a>
-                      </button>
-                    </figure>
-                    
-                </article>
-                
-                <article class="product-card">
-                    <h3>Pão de Leite</h3>
-                    <figure>
-                        <img class="pao-de-leite" src="fotos/Pão-de-Leite-Fofinho.jpg" alt="131" width="150px" height="150px" loading="lazy">
-                        <video src=""></video>
-                        <audio src=""></audio>
-                        <iframe src="" frameborder="0"></iframe>
-                        <figcaption><b>Pão de Leite, ain ain leitinho</b></figcaption>
-                        <button>Comprar</button>
-                    </figure>
-                </article>
-                
-                <article class="product-card">
-                    <h3> Pão Árabe</h3>
-                    <figure>
-                        <img class="pao-arabe" src="fotos/pao-arabe.png" alt="131" width="150px" height="150px" loading="lazy">
-                        <video src=""></video>
-                        <audio src=""></audio>
-                        <iframe src="" frameborder="0"></iframe>
-                        <figcaption><b>Pão Árabe, KABUM KABUM</b></figcaption>
-                        <button>Comprar</button>
-                    </figure>
+      <!-- Produtos com imagem
+        <section class="products">
 
-                </article>
+            <article class="product-card">
+                <h3>Smartphone</h3>
+                <img src="img/iphone.jpg" alt="Imagem de um smartphone moderno">
+                <p>Smartphone com alta tecnologia.</p>
+                <button class="btn">Comprar</button>
+            </article>
 
-            </div>
-              
+            <article class="product-card">
+                <h3>Camiseta</h3>
+                <img src="img/camisa.jpg" alt="Camiseta casual confortável">
+                <p>Camiseta de algodão premium.</p>
+                <button class="btn">Comprar</button>
+            </article>
+
+            <article class="product-card">
+                <h3>Relógio</h3>
+                <img src="img/relogio.jpg" alt="Relógio de pulso">
+                <p>Relógio luxuoso</p>
+                <button class="btn">Comprar</button>
+            </article>
+
         </section>
+        -->
 
-        <section class="table">
-            <table class="product-table">
-            <thead class="table">
-                <tr>
-                    <th> Produtos </th>
-                    <th> Preço </th>
-                    <th> Categoria </th>
-                </tr>
-            </thead>
-            <tbody class="table">
-                <tr>
-                    <td>Farinha </td>
-                    <td>R$ 35</td>
-                    <td>Alimentos</td>
-                </tr>
-                <tr>
-                    <td>Maizena</td>
-                    <td>R$ 45</td>
-                    <td>Alimentos</td>
-                </tr>
-            </tbody>
-            <tfoot class="table">
-                <tr>
-                <td>Total</td>
-                <td> R$80</td>
-                
-                </tr>
-            </tfoot>
+      <section>
+        <div class="products">
+          <article class="product-card">
+            <h3>Pão de Queijo</h3>
+
+            <figure>
+              <img
+                class="pao-de-queijo"
+                src="fotos/Pao-de-queijo.jpg"
+                alt="131"
+                width="150px"
+                height="150px"
+                loading="lazy"
+              />
+
+              <video src=""></video>
+
+              <audio src=""></audio>
+
+              <iframe src="" frameborder="0"></iframe>
+
+              <figcaption>
+                <b>Pão de Queijin, nu é bom demais sô!</b>
+              </figcaption>
+
+              <button>
+                Comprar
+                <a href=""></a>
+              </button>
+            </figure>
+          </article>
+
+          <article class="product-card">
+            <h3>Pão de Leite</h3>
+
+            <figure>
+              <img
+                class="pao-de-leite"
+                src="fotos/Pão-de-Leite-Fofinho.jpg"
+                alt="131"
+                width="150px"
+                height="150px"
+                loading="lazy"
+              />
+
+              <video src=""></video>
+
+              <audio src=""></audio>
+
+              <iframe src="" frameborder="0"></iframe>
+
+              <figcaption>
+                <b>Pão de Leite, ain ain leitinho</b>
+              </figcaption>
+
+              <button>Comprar</button>
+            </figure>
+          </article>
+
+          <article class="product-card">
+            <h3>Pão Árabe</h3>
+
+            <figure>
+              <img
+                class="pao-arabe"
+                src="fotos/pao-arabe.png"
+                alt="131"
+                width="150px"
+                height="150px"
+                loading="lazy"
+              />
+
+              <video src=""></video>
+
+              <audio src=""></audio>
+
+              <iframe src="" frameborder="0"></iframe>
+
+              <figcaption>
+                <b>Pão Árabe, KABUM KABUM</b>
+              </figcaption>
+
+              <button>Comprar</button>
+            </figure>
+          </article>
+        </div>
+      </section>
+
+      <section class="table">
+        <table class="product-table">
+          <thead class="table">
+            <tr>
+              <th>Produtos</th>
+              <th>Preço</th>
+              <th>Categoria</th>
+            </tr>
+          </thead>
+
+          <tbody class="table">
+            <tr>
+              <td>Farinha</td>
+              <td>R$ 35</td>
+              <td>Alimentos</td>
+            </tr>
+
+            <tr>
+              <td>Maizena</td>
+              <td>R$ 45</td>
+              <td>Alimentos</td>
+            </tr>
+          </tbody>
+
+          <tfoot class="table">
+            <tr>
+              <td>Total</td>
+              <td>R$80</td>
+            </tr>
+          </tfoot>
         </table>
-        </section>
+      </section>
 
-        <section id="contato">
-            <p>Meu Contato: 21975448540</p>
-        </section>
-        
+      <section id="contato">
+        <p>Meu Contato: 21975448540</p>
+      </section>
+    </main>
 
+    <footer class="footer">
+      <p class="footer">&copy;Email:astolpinelmatico123@gmail.com</p>
+      <p class="footer">&copy; Contato: (21)98546265</p>
+    </footer>
 
-     </main>
+    <a href="#home">
+      <button>Home</button>
+    </a>
 
-     <footer class="footer">
-       <p class="footer">&copy;Email:astolpinelmatico123@gmail.com</p>
-       <p class="footer">&copy; Contato: (21)98546265</p>
-     </footer>
-
- <a href="#home"> <button> Home </button></a>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
